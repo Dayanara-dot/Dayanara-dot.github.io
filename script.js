@@ -1,20 +1,20 @@
 // ====== DATOS DE FORMACIÓN ======
 const formacion = [
   {
-    etapa: "Kínder",
-    lugar: "Centro Escolar Colonia Carrillo",
+    etapa: "Pre Parvularia",
+    lugar: "Centro Escolar Colonia Carrillo 2012-2013",
     estado: "Completado",
     foto: "diploma-kinder-jpeg.jpeg"
   },
   {
     etapa: "Parvularia",
-    lugar: "Centro Escolar Colonia Carrillo",
+    lugar: "Centro Escolar Colonia Carrillo 2014-2015",
     estado: "Completado",
     foto: "diploma-parbularia-jpeg.jpeg"
   },
   {
     etapa: "Noveno Grado",
-    lugar: "Centro Escolar Colonia Carrillo",
+    lugar: "Centro Escolar Colonia Carrillo 2023-2024",
     estado: "Completado",
     foto: "diploma-noveno-jpej.jpeg"
   },

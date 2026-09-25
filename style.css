@@ -35,12 +35,12 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .logo img {
   width: 45px;
-  height: 45px;
+  height: 35px;
   object-fit: contain;
 }
 
@@ -286,37 +286,24 @@ body {
 
 /* ====== GRID DE TARJETAS ====== */
 
-.contacto-info {
-  display: flex;
-  justify-content: center;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
-  flex-wrap: wrap;
-  margin-top: 30px;
 }
 
-.contacto-item {
+.tarjeta {
   background: #ffffff;
-  padding: 20px 30px;
   border-radius: 15px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  min-width: 280px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.09);
+  transition: 0.3s;
+  border-top: 4px solid #999999;
 }
 
-.contacto-item span {
-  font-size: 1.8rem;
-}
-
-.contacto-item h3 {
-  color: #6f6680;
-  margin-bottom: 3px;
-}
-
-.contacto-item p {
-  color: #555;
-  margin: 0;
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 /* ====== FOTOS ====== */
